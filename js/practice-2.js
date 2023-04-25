@@ -93,5 +93,42 @@
 //  function calculateEngravingPrice(message, pricePerWord) {
 //  let words = message.split(" ");
 //  allPrice = words.length * pricePerWord;
-//  return allPrice; 
-// } 
+//  return allPrice;
+// }
+
+// Task #12
+// function makeStringFromArray(array, delimiter) {
+//   let string;
+// string = array.join(delimiter);
+//   return string;
+// }
+
+// Task #13
+// function slugify(title) {
+// let normalizedTitle = title.toLowerCase();
+//   let words = normalizedTitle.split(" ");
+//   let slug = words.join("-");
+//   return slug;
+// }
+
+// Task #14
+// const fruits = ['apple', 'plum', 'pear', 'orange', 'banana'];
+// const firstTwoEls = fruits.slice(0, 2);
+// const nonExtremeEls = fruits.slice(1, 4);
+// const lastThreeEls = fruits.slice(-3);
+// console.log(fruits);
+// console.log(firstTwoEls);
+// console.log(nonExtremeEls);
+// console.log(lastThreeEls);
+
+// Task #15
+// const oldClients = ['Mango', 'Ajax', 'Poly', 'Kiwi'];
+// const newClients = ['Peach', 'Houston'];
+// const allClients = oldClients.concat(newClients);
+
+// Task #16
+// function makeArray(firstArray, secondArray, maxLength) {
+// const allArray = firstArray.concat(secondArray);
+//   const newArray = allArray.slice(0, maxLength);
+//   return newArray;
+//   }
