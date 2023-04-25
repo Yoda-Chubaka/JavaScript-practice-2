@@ -38,3 +38,38 @@
 // console.log(checkStorage(200, 20));
 // console.log(checkStorage(200, 250));
 // console.log(checkStorage(150, 0));
+
+// Task #4
+// const fruits = ["apple", "plum", "pear", "orange"];
+// console.log(fruits);
+
+// Task #5
+// const fruits = ["apple", "plum", "pear", "orange"];
+// const firstElement = "apple";
+// const secondElement = "plum";
+// const lastElement = "orange";
+// console.log(fruits);
+// console.log(firstElement);
+// console.log(secondElement);
+// console.log(lastElement);
+
+// Task #6
+// const fruits = ["apple", "plum", "pear", "orange"];
+// fruits[1] = "peach";
+// fruits[3] = "banana";
+// console.log(fruits);
+
+// Task #7
+// const fruits = ["apple", "peach", "pear", "banana"];
+// const fruitsArrayLength = fruits.length;
+// console.log(fruits.length);
+
+// Task #8
+// const fruits = ["apple", "peach", "pear", "banana"];
+// const lastElementIndex = fruits.length - 1;
+// const lastElement = fruits[lastElementIndex];
+// console.log(fruits);
+// console.log(fruits.length);
+
+// Task #9
+
