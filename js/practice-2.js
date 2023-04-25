@@ -132,3 +132,5 @@
 //   const newArray = allArray.slice(0, maxLength);
 //   return newArray;
 //   }
+
+// Task #17
