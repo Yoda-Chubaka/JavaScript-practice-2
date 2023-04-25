@@ -72,4 +72,26 @@
 // console.log(fruits.length);
 
 // Task #9
+// function getExtremeElements(array) {
+// firstItem = array[0];
+// lastItem = array[array.length-1];
+// console.log(firstItem);
+// console.log(lastItem);
+// itemEnd = [firstItem, lastItem];
+// console.log(itemEnd);
+// return itemEnd;
+// }
 
+// Task #10
+// function splitMessage(message, delimiter) {
+// let words;
+// words = message.split(delimiter)
+// return words;
+// }
+
+// Task #11
+//  function calculateEngravingPrice(message, pricePerWord) {
+//  let words = message.split(" ");
+//  allPrice = words.length * pricePerWord;
+//  return allPrice; 
+// } 
