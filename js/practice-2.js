@@ -192,3 +192,32 @@
 // }
 
 // Task #23
+// function filterArray(numbers, value) {
+// let num = []
+//  for (let i = 0; i < numbers.length; i += 1) {
+//    if (numbers[i] > value) {
+//      num.push(numbers[i]);
+//    }
+//  }
+// return num;
+// }
+
+// Task #24
+// function checkFruit(fruit) {
+//   const fruits = ["apple", "plum", "pear", "orange"];
+//   return fruits.includes(fruit);
+// }
+
+// Task #25
+function getCommonElements(array1, array2) {
+  // Change code below this line
+let arr = [];
+  for (i = 0; i < array1.length; i += 1) {
+    let array = array1[i];
+    if (array2.includes(array)) {
+      arr.push(array1[i])
+  }
+  }
+return arr;
+ // Change code above this line
+}
