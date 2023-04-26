@@ -167,3 +167,28 @@
 // }
 
 // Task #21
+// function findLongestWord(string) {
+// let word;
+//   let wordLength = 0;
+//   let longestWord;
+//   word = string.split(" ");
+//   for (i = 0; i < word.length; i += 1) {
+//     wordLength = word[2].length;
+    
+//     if (word[i].length > wordLength) {
+//         longestWord = word[i];
+//       return longestWord;
+//       }
+//     }
+// }
+
+// Task #22
+// function createArrayOfNumbers(min, max) {
+//   const numbers = [];
+// for (let i = min; i <= max; i += 1) {
+//   numbers.push(i)
+// }
+//   return numbers;
+// }
+
+// Task #23
