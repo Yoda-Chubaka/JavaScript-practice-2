@@ -241,3 +241,50 @@
 // }
 
 // Task #28
+// const a = 3 % 1;
+// const b = 4 % 3;
+// const c = 11 % 4;
+// const d = 12 % 7;
+// const e = 8 % 3;
+
+// Task #29
+// function getEvenNumbers(start, end) {
+// let arr = [];
+//   for (let i = start; i <= end; i+=1) {
+//     if (i %2 === 0) {
+//       arr.push(i);
+//     }
+//   }
+// return arr;
+//   }
+
+// Task #30
+// const start = 6;
+// const end = 27;
+// let number;
+// for (let i = start; i < end; i += 1) {
+//   if (i % 5 === 0) {
+//     number = i;
+//     break
+//   }
+// }
+
+// Task #31
+// function findNumber(start, end, divisor) {
+//     for (let i = start; i < end; i += 1) {
+//     if (i % divisor === 0) {
+//       return i;
+//     }
+//   }
+
+//   return number;
+// }
+
+// Task #32
+// function includes(array, value) {
+//   for (let i = 0; i <= array.length-1; i+=1) {
+//     if (array[i] === value) {
+//       return true
+//     }
+// } return false
+// }
