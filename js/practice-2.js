@@ -209,15 +209,35 @@
 // }
 
 // Task #25
-function getCommonElements(array1, array2) {
-  // Change code below this line
-let arr = [];
-  for (i = 0; i < array1.length; i += 1) {
-    let array = array1[i];
-    if (array2.includes(array)) {
-      arr.push(array1[i])
-  }
-  }
-return arr;
- // Change code above this line
-}
+// function getCommonElements(array1, array2) {
+// let arr = [];
+//   for (let i = 0; i < array1.length; i += 1) {
+//     if (array2.includes(array1[i])) {
+//       arr.push(array1[i])
+//   }
+//   }
+// return arr;
+// }
+
+// Task #26
+// function calculateTotalPrice(order) {
+//   let total = 0;
+//   for (let item of order) {
+//     total += item;
+//   }
+//   return total;
+// }
+
+// Task #27
+// function filterArray(numbers, value) {
+//   const filteredNumbers = [];
+//   for (let item of numbers) {
+//     const number = item;
+//     if (number > value) {
+//       filteredNumbers.push(number);
+//     }
+//   }
+//   return filteredNumbers;
+// }
+
+// Task #28
