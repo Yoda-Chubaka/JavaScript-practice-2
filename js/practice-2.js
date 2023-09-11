@@ -128,9 +128,15 @@
 
 // Task #16
 // function makeArray(firstArray, secondArray, maxLength) {
+//   let arr = [];
 // const allArray = firstArray.concat(secondArray);
-//   const newArray = allArray.slice(0, maxLength);
-//   return newArray;
+//   if (allArray.length>maxLength) {
+//    arr = allArray.slice(0, maxLength);
+//     return arr;
+//   } else {
+//     arr = allArray.slice();
+//     return arr;
+//   }
 //   }
 
 // Task #17
@@ -180,6 +186,25 @@
 //       return longestWord;
 //       }
 //     }
+// }
+
+
+// function findLongestWord(string) {
+// return string
+//     .split(/\W+/)
+//     .reduce(
+//       function (longest, word) {
+//         return word.length > longest.length
+//           ? word
+//           : longest;
+//       },
+//       ''
+//     );
+// }
+
+
+// function findLongestWord(string) {
+// return string.split(' ').reduce((a, b) => (b.length > a.length) ? b : a);
 // }
 
 // Task #22
