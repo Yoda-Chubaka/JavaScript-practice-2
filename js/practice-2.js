@@ -218,7 +218,7 @@
 
 // Task #23
 // function filterArray(numbers, value) {
-// let num = []
+// const num = []
 //  for (let i = 0; i < numbers.length; i += 1) {
 //    if (numbers[i] > value) {
 //      num.push(numbers[i]);
@@ -231,6 +231,17 @@
 // function checkFruit(fruit) {
 //   const fruits = ["apple", "plum", "pear", "orange"];
 //   return fruits.includes(fruit);
+// }
+
+
+
+// function checkFruit(fruit) {
+//   const fruits = ["apple", "plum", "pear", "orange"];
+// if (fruits.includes(fruit)) {
+//   return true
+// }else {
+//   return false
+// }
 // }
 
 // Task #25
@@ -301,8 +312,6 @@
 //       return i;
 //     }
 //   }
-
-//   return number;
 // }
 
 // Task #32
